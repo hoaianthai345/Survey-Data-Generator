@@ -47,7 +47,7 @@ def generate_continuous_vars(continuous_config, n_samples):
 # ====== Streamlit UI ======
 st.title("📊 Survey Data Generator")
 
-n_vars = st.slider("🔢 Số biến tiềm ẩn (Likert)", 2, 10, 3)
+n_vars = st.slider("🔢 Số biến tiềm ẩn (Likert)", 0, 10, 3)
 
 var_names = []
 items_per_var = []
