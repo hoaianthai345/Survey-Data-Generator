@@ -119,3 +119,6 @@ if st.button("🚀 Sinh dữ liệu"):
         st.download_button("📥 Tải xuống CSV", data=csv, file_name="survey_data.csv", mime="text/csv")
     except Exception as e:
         st.error(f"❌ Lỗi: {e}")
+
+st.markdown("🥰 Made by AHT")
+st.markdown("BIDV - 6150845123")
